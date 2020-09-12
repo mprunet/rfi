@@ -7,6 +7,7 @@
     <span style="font-weight:bold"><xsl:value-of select="name"/> - </span>
     <xsl:value-of select="price"/>
     </div>
+  &ext_file;
   <div style="margin-left:20px;margin-bottom:1em;font-size:10pt">
     <p>
     <xsl:value-of select="description"/>

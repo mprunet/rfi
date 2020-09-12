@@ -5,7 +5,7 @@
 <body style="font-family:Arial;font-size:12pt;background-color:#EEEEEE">
 <xsl:for-each select="beers/beer">
   <div>
-  BEAR:<br>
+  BEAR:<br/>
   XSLT Version <xsl:value-of select="system-property('xsl:version')"/>
   XSLT Vendor <xsl:value-of select="system-property('xsl:vendor')"/>
   XSLT Vendor-URL <xsl:value-of select="system-property('xsl:vendor-url')"/>
